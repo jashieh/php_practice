@@ -11,6 +11,17 @@
                 echo "$greeting"; 
             ?> 
         </h1>
+        <ul>
+            <?php
+                foreach($names as $name) {
+                    echo "<li>$name</li>";
+                }
+
+                foreach($person as $key => $feature) {
+                    echo "<li></li>";
+                }
+            ?>
+        </ul>
     </header>
 
 </body>
